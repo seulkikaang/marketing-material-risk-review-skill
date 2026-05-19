@@ -4,7 +4,9 @@
 
 ## 구성
 
-- `SKILL.md` - skill 본문
+- `SKILL.md` - skill 본문, 런타임 canonical 문서
+- `references/skill-ko.md` - 사람 검토용 한국어판 skill 문서
+- `references/token-budget-ko.md` - 불필요한 토큰 소모 방지 지침
 - `references/korean-case-reference-ko.md` - 반복 리스크 패턴 체크포인트
 - `references/risk-taxonomy-ko.md` - 리스크 분류체계
 - `references/visual-forensic-protocol-ko.md` - 비주얼 포렌식 점검 프로토콜

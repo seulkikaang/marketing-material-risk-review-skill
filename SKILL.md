@@ -22,6 +22,8 @@ Use the attached reference files as pattern memory, not as a definitive legal da
 - `references/risk-taxonomy-ko.md` - Korean marketing risk taxonomy and review questions.
 - `references/visual-forensic-protocol-ko.md` - visual/OCR/frame-level inspection protocol.
 - `references/korean-case-reference-ko.md` - Korean controversy-pattern checkpoints for similar-case reasoning.
+- `references/skill-ko.md` - Korean human-readable mirror. Do not load together with this `SKILL.md` during normal runtime.
+- `references/token-budget-ko.md` - Korean token-budget guidance for reviewers and maintainers.
 
 ## When to Use
 
@@ -86,7 +88,7 @@ Check these risk families:
 
 1. **People and groups** - gender, age, disability, body, region, class, job, nationality, religion, family form, pregnancy, disease, victim status.
 2. **Sexualization and minors** - child/teen model styling, school uniforms, body-framing, innuendo, voyeuristic camera angle, product texture scenes that can be sexualized.
-3. **History, politics, disaster, death** - colonial history, national violence, democratization, war, disaster, suicide, mourning, public tragedy, deceased figures.
+3. **History, politics, disaster, death** - colonial history, war, disaster, suicide, mourning, public tragedy, deceased figures, and sensitive public dates.
 4. **Culture and national symbols** - East Sea/Sea of Japan, Dokdo, Rising Sun imagery, kimchi/paocai, national flags, religious icons.
 5. **Visual symbols and memes** - hand gestures, numbers, hidden text, community-coded icons, extremist/sexual/hate symbols, logo lookalikes.
 6. **Price, benefit, and scarcity** - free, zero, unlimited, lowest, today only, almost sold out, guaranteed, 100%, no-risk, safe.
@@ -117,6 +119,18 @@ Use the reference files to find generalized Korean controversy patterns by:
 
 Report only the closest 2-4 similar cases. Do not overload the user with the whole database.
 
+## Token Budget Rules
+
+Avoid loading duplicate language mirrors or full references by default.
+
+- Use this `SKILL.md` as the canonical runtime instruction.
+- Do not read `references/skill-ko.md` during normal review; it is a human-readable Korean mirror for documentation and maintenance.
+- Read at most one extra reference file unless the material clearly spans multiple risk domains.
+- For hand/visual/video risk, load only `references/visual-forensic-protocol-ko.md`.
+- For copy/legal taxonomy risk, load only `references/risk-taxonomy-ko.md`.
+- For similar-case reasoning, load only `references/korean-case-reference-ko.md` and report 2-4 closest patterns.
+- If the user asks for Korean output, answer in Korean without loading the Korean mirror unless they specifically ask to inspect the Korean documentation.
+
 ## Verdict Rules
 
 Return one of four verdicts:
@@ -130,7 +144,7 @@ Return one of four verdicts:
 
 Severity hints:
 
-- `CRITICAL`: stop publication. Legal/regulatory exposure, minors/sexualization, disease/medical claim, privacy misuse, official institution misuse, national tragedy/political violence risk.
+- `CRITICAL`: stop publication. Legal/regulatory exposure, minors/sexualization, disease/medical claim, privacy misuse, official institution misuse, public tragedy or political-violence sensitivity risk.
 - `HIGH`: likely public backlash or brand trust damage. Gender/region/job/body mockery, greenwashing, hidden sponsorship, misleading discount, controversial symbol.
 - `MEDIUM`: ambiguity or missing context. Needs stronger disclosure, evidence, or alternative wording.
 - `LOW`: wording clarity issue with low controversy probability.
