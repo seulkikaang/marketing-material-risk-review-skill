@@ -99,6 +99,8 @@ Check these risk families:
 For images and videos, never judge only the overall impression.
 
 - Inspect hands, logos, icons, object placement, background text, uniforms, maps, flags, dates, numbers, stickers, and microcopy.
+- For every visible hand, evaluate `left_hand` and `right_hand` separately. Do not pass a hand from the overall scene impression.
+- Treat pointing poses as risky when the thumb-index gap or curled fingers make the hand read as a pinching/집게손-like gesture, especially near phones, coupons, small products, price, discount, or benefit copy.
 - For video, request frame captures at 0.5-1 second intervals or at scene changes when possible.
 - OCR visible text and review it separately from the caption.
 - If a gesture or symbol resembles a contested code, write `visual_similarity_risk`; do not label it as intentional unless the material explicitly states it.
