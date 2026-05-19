@@ -5,9 +5,6 @@
 ## 구성
 
 - `SKILL.md` - skill 본문
-- `references/korea-marketing-risk-cases-seed.csv` - 2006-2026 한국 마케팅 논란 seed dataset
-- `references/korea-marketing-risk-cases-seed.md` - 사람이 읽기 쉬운 케이스 인덱스
-- `references/korea-official-ad-review-sources.md` - 한국 공식/준공식 광고 심의·법규 체크 소스
 - `references/korean-case-reference-ko.md` - 반복 리스크 패턴 체크포인트
 - `references/risk-taxonomy-ko.md` - 리스크 분류체계
 - `references/visual-forensic-protocol-ko.md` - 비주얼 포렌식 점검 프로토콜

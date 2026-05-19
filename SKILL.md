@@ -17,11 +17,11 @@ metadata:
 
 This skill reviews Korean-market marketing materials before publication. It is not legal advice. It is a conservative pre-flight gate that flags copy, visuals, campaign mechanics, influencer posts, landing pages, packages, event names, and videos that may trigger public backlash, platform issues, or formal review.
 
-Use the attached reference dataset as pattern memory, not as a definitive legal database. Prefer rows marked `direct` or `L4`; rows marked `needs-*`, `search-needed`, or `official-search` are weak pattern references until a reviewer replaces them with direct sources.
+Use the attached reference files as pattern memory, not as a definitive legal database. They are generalized from Korean marketing controversy patterns and should be checked against current official sources when legal or regulatory exposure is possible.
 
-- `references/korea-marketing-risk-cases-seed.csv` - normalized Korean controversy cases from 2006-2026.
-- `references/korea-marketing-risk-cases-seed.md` - human-readable case index.
-- `references/korea-official-ad-review-sources.md` - official and quasi-official Korean law/review sources.
+- `references/risk-taxonomy-ko.md` - Korean marketing risk taxonomy and review questions.
+- `references/visual-forensic-protocol-ko.md` - visual/OCR/frame-level inspection protocol.
+- `references/korean-case-reference-ko.md` - Korean controversy-pattern checkpoints for similar-case reasoning.
 
 ## When to Use
 
@@ -62,7 +62,7 @@ material:
 
 ### 2. Official source gate
 
-Check the relevant source from `references/korea-official-ad-review-sources.md`:
+Check the relevant current official source for the domain:
 
 | Domain | Minimum check |
 |---|---|
@@ -106,7 +106,7 @@ For images and videos, never judge only the overall impression.
 
 ### 5. Similar-case retrieval
 
-Use the reference CSV/MD to find patterns by:
+Use the reference files to find generalized Korean controversy patterns by:
 
 - year and industry
 - asset type
@@ -147,8 +147,8 @@ Severity: CRITICAL / HIGH / MEDIUM / LOW
 | FAIL/REVIEW/OK | copy line / visual area / frame | ... | ... | official source or similar case |
 
 ### Similar Korean Cases
-1. `case_id` - brand/org, year: similarity and difference.
-2. `case_id` - brand/org, year: similarity and difference.
+1. `pattern/source` - similarity and difference.
+2. `pattern/source` - similarity and difference.
 
 ### Required Fixes
 1. ...
