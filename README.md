@@ -8,6 +8,7 @@
 - `references/skill-ko.md` - 사람 검토용 한국어판 skill 문서
 - `references/token-budget-ko.md` - 불필요한 토큰 소모 방지 지침
 - `references/korean-case-reference-ko.md` - 반복 리스크 패턴 체크포인트
+- `references/korea-marketing-controversy-issue-summary-ko.md` - 2006-2026 한국 마케팅 물의 사례 요약 및 2026 스타벅스 5·18 `탱크데이` 이슈
 - `references/risk-taxonomy-ko.md` - 리스크 분류체계
 - `references/visual-forensic-protocol-ko.md` - 비주얼 포렌식 점검 프로토콜
 

@@ -22,6 +22,7 @@ Use the attached reference files as pattern memory, not as a definitive legal da
 - `references/risk-taxonomy-ko.md` - Korean marketing risk taxonomy and review questions.
 - `references/visual-forensic-protocol-ko.md` - visual/OCR/frame-level inspection protocol.
 - `references/korean-case-reference-ko.md` - Korean controversy-pattern checkpoints for similar-case reasoning.
+- `references/korea-marketing-controversy-issue-summary-ko.md` - Korean issue-summary reference from Seulki's table, including the 2026 Starbucks 5·18 `탱크데이` issue.
 - `references/skill-ko.md` - Korean human-readable mirror. Do not load together with this `SKILL.md` during normal runtime.
 - `references/token-budget-ko.md` - Korean token-budget guidance for reviewers and maintainers.
 
@@ -88,7 +89,7 @@ Check these risk families:
 
 1. **People and groups** - gender, age, disability, body, region, class, job, nationality, religion, family form, pregnancy, disease, victim status.
 2. **Sexualization and minors** - child/teen model styling, school uniforms, body-framing, innuendo, voyeuristic camera angle, product texture scenes that can be sexualized.
-3. **History, politics, disaster, death** - colonial history, war, disaster, suicide, mourning, public tragedy, deceased figures, and sensitive public dates.
+3. **History, politics, disaster, death** - colonial history, war, disaster, suicide, mourning, public tragedy, deceased figures, sensitive public dates, and sensitive-date copy/product-name collisions such as 5·18 + `탱크데이`/`책상에 탁`.
 4. **Culture and national symbols** - East Sea/Sea of Japan, Dokdo, Rising Sun imagery, kimchi/paocai, national flags, religious icons.
 5. **Visual symbols and memes** - hand gestures, numbers, hidden text, community-coded icons, extremist/sexual/hate symbols, logo lookalikes.
 6. **Price, benefit, and scarcity** - free, zero, unlimited, lowest, today only, almost sold out, guaranteed, 100%, no-risk, safe.
